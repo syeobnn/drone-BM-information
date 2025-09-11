@@ -1,0 +1,13 @@
+# 환경 변수
+.env
+.env.local
+.env.*.local
+
+# 빌드 아웃풋
+/dist
+/build
+/node_modules
+
+# 편의 파일
+.DS_Store
+.vscode/
