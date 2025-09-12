@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Drone Map MVP</title>
+    <link rel="stylesheet" href="/src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+  </head>
+  <body>
+    <!-- 상단 토글 UI -->
+    <div class="controls">
+      <label>
+        <input type="checkbox" id="toggle-restricted" />
+        비행제한구역
+      </label>
+      <label>
+        <input type="checkbox" id="toggle-prohibited" />
+        비행금지구역
+      </label>
+    </div>
+
+    <div id="map"></div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
